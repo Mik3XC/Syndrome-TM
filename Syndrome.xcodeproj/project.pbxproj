@@ -1,0 +1,47 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		DFB14FBB9E7D095209EC4CFD = { isa = PBXFileReference; lastKnownFileType = text; path = "NOTICE"; sourceTree = SOURCE_ROOT; };
+		CBF05367790BADF4B988A3D3 = { isa = PBXBuildFile; fileRef = DFB14FBB9E7D095209EC4CFD; };
+		C693279643B8CD5D248172D9 = { isa = PBXFileReference; lastKnownFileType = text; path = "LICENSE"; sourceTree = SOURCE_ROOT; };
+		462C78A8899F164453DEEF4C = { isa = PBXBuildFile; fileRef = C693279643B8CD5D248172D9; };
+		6146E562FBE805EDB74AE6B2 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Syndrome/RoomViews.swift"; sourceTree = SOURCE_ROOT; };
+		5549687CA920858893C39D70 = { isa = PBXBuildFile; fileRef = 6146E562FBE805EDB74AE6B2; };
+		00435BD795D977BCE0356FB1 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/SyndromeDSP/SpatialModel.swift"; sourceTree = SOURCE_ROOT; };
+		737EB92B99B89A7FACF222F1 = { isa = PBXBuildFile; fileRef = 00435BD795D977BCE0356FB1; };
+		CECD74B4AB78BEDA4D401049 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Syndrome/SpatialViews.swift"; sourceTree = SOURCE_ROOT; };
+		5F31B77C458174CC02440AB3 = { isa = PBXBuildFile; fileRef = CECD74B4AB78BEDA4D401049; };
+		B8DF4B72F4C46BFE50DD30F2 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Syndrome/Brand.swift"; sourceTree = SOURCE_ROOT; };
+		26FB09C70D405894FB16E189 = { isa = PBXBuildFile; fileRef = B8DF4B72F4C46BFE50DD30F2; };
+		A80364649B766E2180A98D07 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Syndrome/StudioAudio.swift"; sourceTree = SOURCE_ROOT; };
+		96606C6E3DB516FA5DE13383 = { isa = PBXBuildFile; fileRef = A80364649B766E2180A98D07; };
+		008FA177C7E146741911EC63 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Syndrome/StudioViews.swift"; sourceTree = SOURCE_ROOT; };
+		E3628D48FD7B744A3C632D80 = { isa = PBXBuildFile; fileRef = 008FA177C7E146741911EC63; };
+		D7FCB79E5B98CBDA443546D2 = { isa = PBXFileReference; lastKnownFileType = image.icns; path = "Resources/Syndrome.icns"; sourceTree = SOURCE_ROOT; };
+		442DA0B7AAD0722FF1D21621 = { isa = PBXBuildFile; fileRef = D7FCB79E5B98CBDA443546D2; };
+		9F4173F2AA736E8514495BFC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Syndrome/SyndromeApp.swift"; sourceTree = SOURCE_ROOT; };
+		350ACFF12DD4AF4AC77151DC = { isa = PBXBuildFile; fileRef = 9F4173F2AA736E8514495BFC; };
+		F6684EED84A5A89607A25B80 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Syndrome/Plot.swift"; sourceTree = SOURCE_ROOT; };
+		7C552B5A6E0541EBB4922C3B = { isa = PBXBuildFile; fileRef = F6684EED84A5A89607A25B80; };
+		465F7F4132FDC08C54BFEB83 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/SyndromeDSP/DSP.swift"; sourceTree = SOURCE_ROOT; };
+		3A2B7A775DE4F70BCAF0B3AF = { isa = PBXBuildFile; fileRef = 465F7F4132FDC08C54BFEB83; };
+		A8792157CB4F27FB949C035F = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Syndrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A3E27B8CA818264D75C8D81 = { isa = PBXGroup; children = (A8792157CB4F27FB949C035F,); name = Products; sourceTree = "<group>"; };
+		4813494D137E1631BBA301D5 = { isa = PBXGroup; children = (DFB14FBB9E7D095209EC4CFD, C693279643B8CD5D248172D9, 6146E562FBE805EDB74AE6B2, 00435BD795D977BCE0356FB1, CECD74B4AB78BEDA4D401049, B8DF4B72F4C46BFE50DD30F2, A80364649B766E2180A98D07, 008FA177C7E146741911EC63, D7FCB79E5B98CBDA443546D2, 9F4173F2AA736E8514495BFC, F6684EED84A5A89607A25B80, 465F7F4132FDC08C54BFEB83, 0A3E27B8CA818264D75C8D81,); sourceTree = "<group>"; };
+		878A52FC5FF6A57D50B7B870 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (5549687CA920858893C39D70, 737EB92B99B89A7FACF222F1, 5F31B77C458174CC02440AB3, 26FB09C70D405894FB16E189, 96606C6E3DB516FA5DE13383, E3628D48FD7B744A3C632D80, 350ACFF12DD4AF4AC77151DC, 7C552B5A6E0541EBB4922C3B, 3A2B7A775DE4F70BCAF0B3AF,); runOnlyForDeploymentPostprocessing = 0; };
+		E2AA269EB967A8853A258BFA = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		41D311A605520FC7B8B9A980 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (CBF05367790BADF4B988A3D3, 462C78A8899F164453DEEF4C, 442DA0B7AAD0722FF1D21621,); runOnlyForDeploymentPostprocessing = 0; };
+		73EBF6644258C120893E685D = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; }; name = Debug; };
+		6C7EFF6369083C8E1F2B1994 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = Syndrome; PRODUCT_BUNDLE_IDENTIFIER = edu.local.Syndrome; INFOPLIST_FILE = Resources/Info.plist; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; ENABLE_HARDENED_RUNTIME = YES; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; COMBINE_HIDPI_IMAGES = YES; }; name = Debug; };
+		0B0C687DF8B6B8DC790B519C = { isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
+		DD75E2CB1C510A828AC72D96 = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_NAME = Syndrome; PRODUCT_BUNDLE_IDENTIFIER = edu.local.Syndrome; INFOPLIST_FILE = Resources/Info.plist; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; ENABLE_HARDENED_RUNTIME = YES; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; COMBINE_HIDPI_IMAGES = YES; }; name = Release; };
+		76F8DEC3DFE0BDB465198890 = { isa = XCConfigurationList; buildConfigurations = (73EBF6644258C120893E685D, 0B0C687DF8B6B8DC790B519C,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		1B672BF3DA427763BF644BE3 = { isa = XCConfigurationList; buildConfigurations = (6C7EFF6369083C8E1F2B1994, DD75E2CB1C510A828AC72D96,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A172CEDCAE47474B615C54D5 = { isa = PBXNativeTarget; buildConfigurationList = 1B672BF3DA427763BF644BE3; buildPhases = (878A52FC5FF6A57D50B7B870, E2AA269EB967A8853A258BFA, 41D311A605520FC7B8B9A980,); buildRules = (); dependencies = (); name = Syndrome; productName = Syndrome; productReference = A8792157CB4F27FB949C035F; productType = "com.apple.product-type.application"; };
+		244210E48437B6556980A702 = { isa = PBXProject; attributes = { LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; }; buildConfigurationList = 76F8DEC3DFE0BDB465198890; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = 4813494D137E1631BBA301D5; productRefGroup = 0A3E27B8CA818264D75C8D81; projectDirPath = ""; projectRoot = ""; targets = (A172CEDCAE47474B615C54D5,); };
+	};
+	rootObject = 244210E48437B6556980A702;
+}
