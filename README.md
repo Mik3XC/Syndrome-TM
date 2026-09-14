@@ -10,6 +10,10 @@ An offline macOS sound studio and educational DSP app. Explore waveforms, hear l
 
 [Download for macOS](https://github.com/Rali0s/Syndrome-TM/releases/latest) · [Installation guide](docs/INSTALL_MACOS.md) · [DSP & spatial models](docs/DSP_AND_SPATIAL_MODELS.md) · [Apache 2.0 license](LICENSE)
 
+![Syndrome SubVocal Speech showing the simulated room, apparition controls, and Premise LLC attribution](docs/images/syndrome-room.png)
+
+*SubVocal Speech with the shared virtual room and apparition.*
+
 ## Download
 
 The [v1.7.1 release](https://github.com/Rali0s/Syndrome-TM/releases/tag/v1.7.1) includes:
